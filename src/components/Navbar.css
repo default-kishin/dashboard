@@ -1,0 +1,68 @@
+/* Navbar.css */
+.custom-navbar {
+  background-color: #153756;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo .navbar-icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.navbar-logo:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-icon {
+  position: relative;
+}
+
+.search-icon input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.search-icon input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-icon svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.nav-icons .nav-link {
+  color: #fff;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons .nav-link:hover {
+  color: #ddd;
+}
+
+.profile-icon {
+  font-size: 2rem;
+}
+
+.navbar {
+  border-bottom: 1px solid #dedede;
+}

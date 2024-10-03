@@ -1,0 +1,203 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #2b3e50;
+  padding: 20px;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  background-color: #36495e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar ul li:hover {
+  background-color: #4a637e;
+}
+
+/* Main layout */
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-profile {
+  font-size: 20px;
+}
+
+/* Main content */
+.main-content {
+  padding: 20px;
+  background-color: #f0f2f5;
+  flex: 1;
+}
+
+.lead-info {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lead-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.lead-info p {
+  font-size: 18px;
+  color: #666;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.status-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.tabs-section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabs-section ul {
+  display: flex;
+  list-style: none;
+}
+
+.tabs-section ul li {
+  padding: 10px 15px;
+  background-color: #f4f4f4;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activity-layout {
+  display: flex;
+  gap: 20px;
+}
+
+/* Activity Section */
+.activity-section {
+  flex: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.activity-section h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.activity-section button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.activity-section input {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.side-sections {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Stage History and Upcoming */
+.stage-history, .upcoming-overdue {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stage-history h3, .upcoming-overdue h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.stage-history ul, .upcoming-overdue ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stage-history ul li, .upcoming-overdue ul li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.stage-history ul li:last-child, .upcoming-overdue ul li:last-child {
+  border-bottom: none;
+}
